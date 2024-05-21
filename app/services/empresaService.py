@@ -7,12 +7,16 @@ from app.serializer import EmpresaSchema, validate
 from app.models import Empresa
 
 
-def saveEmpresa(data):
+def saveEmpresaNoAuth(data):
     user = auth.validateSession()
     if not user:
         return exceptions.throwUserNotAuthenticatedException()
     if user["tipo"] != "ADMIN":
         return exceptions.throwUnauthorizedException("Somente um administrador pode executar essa ação.")
+    
+    return saveEmpresaNoAuth(data)
+
+def saveEmpresaNoAuth(data):
     try:
         e = validate(data, EmpresaSchema())
     
@@ -31,7 +35,6 @@ def saveEmpresa(data):
         print("erro")
         db.session.rollback()
         return make_response({"mensagem" : "Ocorreu um erro ao adicionar empresa."}, 400)
-    
     
 
 def listarEmpresas(requestArgs):

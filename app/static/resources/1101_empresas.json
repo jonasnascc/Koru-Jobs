@@ -1,4 +1,5 @@
-[{"nome": "Escola Koru", "setor": "Educação presencial e online", "logoUrl": "/static/img/koru-icon.png"},
+[
+{"nome": "Escola Koru", "setor": "Educação presencial e online", "logoUrl": "/static/img/koru-icon.png"},
 {"nome": "Accenture", "setor": "Consultoria empresarial", "logoUrl": "https://media.glassdoor.com/sql/4138/accenture-squareLogo-1709650590794.png"},
 {"nome": "IBM", "setor": "Serviços de apoio à tecnologia da informação", "logoUrl": "https://media.glassdoor.com/sql/354/ibm-squareLogo-1680100245029.png"},
 {"nome": "Deloitte", "setor": "Consultoria empresarial", "logoUrl": "https://media.glassdoor.com/sql/2763/deloitte-squareLogo-1674210308592.png"},
@@ -8,6 +9,7 @@
 {"nome": "Teleperformance", "setor": "Serviços de telecomunicações", "logoUrl": "https://media.glassdoor.com/sql/9779/teleperformance-squareLogo-1697744314989.png"},
 {"nome": "EY", "setor": "Contabilidade e serviços fiscais", "logoUrl": "https://media.glassdoor.com/sql/2784/ey-squareLogo-1689166016078.png"},
 {"nome": "Capgemini", "setor": "Soluções de software e redes corporativas", "logoUrl": "https://media.glassdoor.com/sql/3803/capgemini-squareLogo-1688367853815.png"},
+{"nome": "iFood", "setor": "Internet e serviços Web", "logoUrl": "https://media.glassdoor.com/sql/1396166/ifood-squarelogo-1576633518605.png"},
 {"nome": "PwC", "setor": "Contabilidade e serviços fiscais", "logoUrl": "https://media.glassdoor.com/sql/8450/pwc-squareLogo-1710175827241.png"},
 {"nome": "KPMG", "setor": "Consultoria empresarial", "logoUrl": "https://media.glassdoor.com/sql/2867/kpmg-squareLogo-1707943479464.png"},
 {"nome": "Tata Consultancy Services", "setor": "Desenvolvimento de software", "logoUrl": "https://media.glassdoor.com/sql/13461/tata-consultancy-services-squareLogo-1634801936555.png"},
@@ -80,7 +82,6 @@
 {"nome": "Whirlpool Corporation", "setor": "Produção de bens de consumo", "logoUrl": "https://media.glassdoor.com/sql/732/whirlpool-corporation-squareLogo-1653302236182.png"},
 {"nome": "Atento (Brazil)", "setor": "Recrutamento e terceirização", "logoUrl": "https://media.glassdoor.com/sql/3763117/atento-brazil-squarelogo-1636117622689.png"},
 {"nome": "BASF", "setor": "Fabricação de produtos químicos", "logoUrl": "https://media.glassdoor.com/sql/4231/basf-squareLogo-1620143981284.png"},
-{"nome": "iFood", "setor": "Internet e serviços Web", "logoUrl": "https://media.glassdoor.com/sql/1396166/ifood-squarelogo-1576633518605.png"},
 {"nome": "Cargill", "setor": "Produção agrícola", "logoUrl": "https://media.glassdoor.com/sql/2739/cargill-squareLogo-1709932603041.png"},
 {"nome": "Porto", "setor": "Seguradoras", "logoUrl": "https://media.glassdoor.com/sql/329448/porto-seguro-seguros-squareLogo-1655224287695.png"},
 {"nome": "Grupo Casas Bahia", "setor": "Lojas de aparelhos e equipamentos eletrônicos", "logoUrl": "https://media.glassdoor.com/sql/2002288/via-squareLogo-1695320222159.png"},
