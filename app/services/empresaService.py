@@ -2,11 +2,17 @@ from app import db
 from flask import make_response, jsonify
 import sqlalchemy as sa
 import app.exceptions.apiExceptions as exceptions
+from app.services import authService as auth
 from app.serializer import EmpresaSchema, validate
 from app.models import Empresa
 
 
 def saveEmpresa(data):
+    user = auth.validateSession()
+    if not user:
+        return exceptions.throwUserNotAuthenticatedException()
+    if user["tipo"] != "ADMIN":
+        return exceptions.throwUnauthorizedException("Somente um administrador pode executar essa ação.")
     try:
         e = validate(data, EmpresaSchema())
     
