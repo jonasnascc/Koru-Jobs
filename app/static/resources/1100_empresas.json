@@ -1,4 +1,5 @@
-[{"nome": "Accenture", "setor": "Consultoria empresarial", "logoUrl": "https://media.glassdoor.com/sql/4138/accenture-squareLogo-1709650590794.png"},
+[{"nome": "Escola Koru", "setor": "Educação presencial e online", "logoUrl": "/static/img/koru-icon.png"},
+{"nome": "Accenture", "setor": "Consultoria empresarial", "logoUrl": "https://media.glassdoor.com/sql/4138/accenture-squareLogo-1709650590794.png"},
 {"nome": "IBM", "setor": "Serviços de apoio à tecnologia da informação", "logoUrl": "https://media.glassdoor.com/sql/354/ibm-squareLogo-1680100245029.png"},
 {"nome": "Deloitte", "setor": "Consultoria empresarial", "logoUrl": "https://media.glassdoor.com/sql/2763/deloitte-squareLogo-1674210308592.png"},
 {"nome": "Itaú Unibanco (Itaú BBA e Rede)", "setor": "Serviços bancários e de crédito", "logoUrl": "https://media.glassdoor.com/sql/10999/itaú-unibanco-itaú-bba-e-rede-squareLogo-1703158988454.png"},
