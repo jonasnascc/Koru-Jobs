@@ -11,7 +11,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 email = os.environ.get("ADMIN_EMAIL")
 senha = os.environ.get("ADMIN_SENHA")
 
-# ################ TESTS ONLY ################
+# # ################ TESTS ONLY ################
 # email = "koru@mail.com"
 # senha = "koru123"
 # ############################################
