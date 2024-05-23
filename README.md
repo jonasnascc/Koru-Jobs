@@ -14,8 +14,8 @@ Este projeto se trata de um MVC(Minimum Viable Concept) fullstack feito em Flask
 1. **Clonar o repositório**
 
    ```bash
-   git clone https://github.com/rodrigocps/Koru-gd
-   cd Koru-gd
+   git clone https://github.com/rodrigocps/Koru-gdJobs
+   cd Koru-Jobs
    ```
 
 2. **Criar e ativar um ambiente virtual**
