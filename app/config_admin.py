@@ -11,17 +11,10 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 email = os.environ.get("ADMIN_EMAIL")
 senha = os.environ.get("ADMIN_SENHA")
 
-# # ################ TESTS ONLY ################
-# email = "koru@mail.com"
-# senha = "koru123"
-# ############################################
-# db.session.execute(sa.delete(Usuario).where(Usuario.email == "koru@mail.com"))
-# db.session.commit()
-
 def addAdmin(email, senha):
     print("=> Configurando usuário administrador...")
     try:
-        admin = Usuario(nome="Admin", email=email, tipo="ADMIN")
+        admin = Usuario(nome="Administrador", email=email, tipo="ADMIN")
         admin.set_password(senha)
 
         db.session.add(admin)

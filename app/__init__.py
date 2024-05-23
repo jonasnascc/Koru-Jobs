@@ -16,7 +16,3 @@ from app import copy_empresas, models, routes, config_admin
 
 with app.app_context():
     upgrade()
-
-# from app import routes
-
-# buildDb()

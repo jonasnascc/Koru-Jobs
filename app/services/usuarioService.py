@@ -41,6 +41,9 @@ def login(data):
 
         usuario = db.session.scalars(query).one()
 
+        if not usuario.check_password(u["senha"]):
+            return exceptions.throwUnauthorizedException("Senha incorreta!")
+
         session["user"] = usuario.to_dict()
         if not usuario.tipo:
             session["user"]["tipo"] = "USER"
