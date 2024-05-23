@@ -2,6 +2,8 @@
 
 Este projeto se trata de um MVC(Minimum Viable Concept) fullstack feito em Flask de um sistema de avaliações onde o usuário conta sua experiência sobre a empresa que trabalho. Sendo assim, outros usuários podem consultar informações de experiencias sobre os colaboradores da empresa em que pretende se candidatar para um possível processo seletivo.
 
+**Acesse o deploy do projeto em:** <https://korujobs.onrender.com>
+
 ## Pré-requisitos
 
 - Python 3.x instalado
